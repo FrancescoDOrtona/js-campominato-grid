@@ -9,7 +9,10 @@
     margin: 0 auto;
 }
 
-
+body{
+    background-image: url(../img/low-poly-grid-haikei.svg);
+    color: white;
+}
 /* Header */
 header{
     text-align: center;
@@ -23,6 +26,10 @@ header{
 
 /* Game content */
 
+.game-content{
+    padding: 20px 0px;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -30,7 +37,7 @@ header{
 
 .box{
     aspect-ratio: 1;
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
