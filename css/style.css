@@ -5,13 +5,15 @@
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
 body{
     background-image: url(../img/low-poly-grid-haikei.svg);
     color: white;
+    max-height: 100vh;
+    overflow: hidden;
 }
 /* Header */
 header{
