@@ -26,7 +26,7 @@ header{
     margin-bottom: 20px;
 }
 
-.play-btn{
+.play-btn, #difficulty{
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 10px;
@@ -43,7 +43,18 @@ header{
 
 .grid{
     display: grid;
+}
+
+.grid-easy{
     grid-template-columns: repeat(10, 1fr);
+}
+
+.grid-medium{
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.grid-hard{
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .box{
