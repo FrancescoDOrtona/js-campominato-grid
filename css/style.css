@@ -9,6 +9,20 @@
     margin: 0 auto;
 }
 
+
+/* Header */
+header{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+
+/* Game content */
+
 .grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
