@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.box{
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-azure{
+    background-color: cornflowerblue;
+}
